@@ -1,4 +1,5 @@
 package com.filservtech.filipovcashapi.model;
 
-public class TipoLancamento {
+public enum TipoLancamento {
+    RECEITA, DESPESA
 }

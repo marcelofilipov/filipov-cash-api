@@ -1,4 +1,5 @@
 package com.filservtech.filipovcashapi.service.exception;
 
-public class PessoaInexistenteOuInativaException {
+public class PessoaInexistenteOuInativaException extends RuntimeException {
+    private static final long serialVersionUID = 1L;
 }
