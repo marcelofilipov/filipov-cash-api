@@ -1,4 +1,4 @@
 package com.filservtech.filipovcashapi.repository;
 
-public interface Pessoa {
+public class PessoaRepository {
 }
