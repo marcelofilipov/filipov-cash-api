@@ -1,6 +1,7 @@
 package com.filservtech.filipovcashapi.repository.lancamento;
 
 import com.filservtech.filipovcashapi.model.Lancamento;
+import com.filservtech.filipovcashapi.model.Lancamento_;
 import com.filservtech.filipovcashapi.repository.filter.LancamentoFilter;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageImpl;
