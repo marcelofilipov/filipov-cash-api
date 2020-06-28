@@ -19,9 +19,11 @@ import javax.servlet.http.HttpServletResponse;
 @ControllerAdvice
 public class RefreshTokenPostProcessor implements ResponseBodyAdvice<OAuth2AccessToken> {
 
+    public static final String POST_ACCESS_TOKEN = "postAccessToken";
+
     @Override
     public boolean supports(MethodParameter returnType, Class<? extends HttpMessageConverter<?>> converterType) {
-        return returnType.getMethod().getName().equals("postAccessToken");
+        return returnType.getMethod().getName().equals(POST_ACCESS_TOKEN);
     }
 
     @Override
